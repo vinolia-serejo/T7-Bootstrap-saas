@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans' , sans-serif;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans' , sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+    @media screen and (max-width: $mobile) {
+        width: 90%;
+    } 
+
+.header-text{
+    @include title (uppercase, $color-primary)
+}
+div[class^="section-"]{
+    padding: $padding 0;
+}
+}

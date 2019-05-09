@@ -1,0 +1,16 @@
+.section-clients{
+    background: $color-bg;
+    text-align: center;
+    padding: 70px;
+    @include flex (center, center);
+
+    .list-unstyled{
+        @include flex (flex, center);
+
+        li+li {
+            padding-left: 30px;
+        }    
+        
+    }
+    
+}
